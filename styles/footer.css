@@ -1,0 +1,48 @@
+#totalfooter{
+    background-color: #f7f7f7;
+    
+}
+#footer{
+display: flex;
+width: 80%;
+margin: auto;
+justify-content: space-around;
+border: 1px solid rd;
+background-color: #f7f7f7;
+}
+#fb{
+height: 400px;
+margin-right: 50px;
+margin: auto;
+margin-top: 5px;
+}
+.totalp{
+color: #666;
+line-height: 10px;
+}
+.totalp:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+#oneII{
+margin-top: 50px;
+}
+#twoII{
+margin-top: 50px;
+}
+#footsearch{
+    padding-right: 140px;
+    margin-top: 20px;
+    border: none;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid black;
+} 
+#footspan{
+    text-decoration: underline;
+}
+#totalfootspan{
+    margin-top: -10px;
+}
+#baki{
+    width: 100%;
+}
