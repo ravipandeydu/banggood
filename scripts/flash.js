@@ -2,12 +2,13 @@ var flashArr = []
 
 class flashdeals{
     constructor(name,image,price,striked,disc,rate){
-        this.name = name;
-        this.image =image;
-        this.price = price;
+        this.prodname = name;
+        this.prodimage =image;
+        this.prodprice = price;
         this.striked = striked;
-        this.disc = disc;
-        this.rate = rate
+        this.proddisc = disc;
+        this.rate = rate;
+        this.quantity = 1;
     }
 }
 
@@ -49,3 +50,6 @@ flashArr.push(flashobj1, flashobj2,flashobj3,flashobj4,flashobj5,flashobj6,flash
 import displayData from "../components/append.js"
 let cont = document.querySelector('#container')
 displayData(flashArr, cont)
+
+
+

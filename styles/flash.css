@@ -61,11 +61,10 @@
 }
 #price{
     margin-top: 10px;
-    color: rgb(190, 83, 33);
+    color: rgb(255, 71, 51);
 }
 #pricebox{
     margin-top: -5px;
     color: grey;
     line-height: 10px;
 }
-

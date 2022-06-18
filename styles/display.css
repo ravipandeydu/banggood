@@ -1,0 +1,28 @@
+#detailbox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+#pricebox{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+#pricebox>s{
+    color: #666666;
+}
+#pricebox>p{
+    color: rgb(190, 83, 33);
+}
+#buttonbox>button{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 71, 51);
+    color: white;
+    margin-right: 10px;
+    border: 0px;
+}
