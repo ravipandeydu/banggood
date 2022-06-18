@@ -50,6 +50,9 @@ flashArr.push(flashobj1, flashobj2,flashobj3,flashobj4,flashobj5,flashobj6,flash
 import navbar from "../components/navbar.js"
 document.querySelector('#navbar').innerHTML = navbar()
 
+import footer from "../components/footer.js"
+document.querySelector('#totalfooter').innerHTML = footer()
+
 import displayData from "../components/append.js"
 let cont = document.querySelector('#container')
 displayData(flashArr, cont)

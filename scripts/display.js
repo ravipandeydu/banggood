@@ -69,3 +69,6 @@ function addcartfunc(el){
 
 import navbar from "../components/navbar.js"
 document.querySelector('#navbar').innerHTML = navbar()
+
+import footer from "../components/footer.js"
+document.querySelector('#totalfooter').innerHTML = footer()
