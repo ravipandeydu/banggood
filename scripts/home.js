@@ -1,3 +1,12 @@
+import navbar from '../components/navbar.js'
+import footer from'../components/footer.js'
+
+document.getElementById('navbar').innerHTML = navbar();
+document.getElementById('footer_').innerHTML = footer();
+
+
+
+
 
 //Top image slideshow
 let id = 0

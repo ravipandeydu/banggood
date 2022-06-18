@@ -3,11 +3,12 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;}
+
 body{
     /* background: rgb(247,247,247);
     background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(251,228,218,1) 100%); */
     background: rgb(247,247,247);
-background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 47%, rgba(244,244,244,1) 100%);
+    background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 47%, rgba(244,244,244,1) 100%);
     background-repeat: no-repeat;
 
 }
@@ -19,6 +20,7 @@ background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 
     /* border: 1px solid black; */
     ;
     justify-content: space-between;
+    margin-top: 20px;
 
 
 
@@ -46,7 +48,7 @@ background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 
     gap: 1%;
 }
 
-#ranking, #clearance{
+#ranking, #Clearance{
     
     background-color: #FDF5F1 ;
     /* background-color: #f5f3f4; */
@@ -261,7 +263,7 @@ background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 
 }
 
 /* /////////flashDeals///////// */
-#flashDeals{
+#flashDeals_{
     width: 80%;
     margin: auto;
     background-color: white;
@@ -269,7 +271,7 @@ background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 
     margin-bottom: 20px;
     border-radius: 10px;
 }
-#flash{
+#flash_{
    display: grid;
    grid-template-columns: repeat(6,1fr); 
    gap: 10px;
@@ -423,4 +425,8 @@ background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,223,204,1) 
     40% ,60% {
         text-shadow :none;
     }
+}
+
+#footer_{
+    width: 100%;
 }
