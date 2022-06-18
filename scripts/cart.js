@@ -2,7 +2,7 @@ var totalItems = 0;
 var totalPrice = 0;
 var isPromoCodeApplied = false;
 
-var data = JSON.parse(localStorage.getItem("cartDetails")) || [] ;
+var data = JSON.parse(localStorage.getItem("atc")) || [] ;
 
 var product = document.querySelector(".productcont");
 
@@ -45,7 +45,7 @@ data.forEach((element,i) => {
         var filteredItem = data.filter(function(cur,i){
             return cur.id != element.id
         })
-        localStorage.setItem("cartDetails",JSON.stringify(filteredItem))
+        localStorage.setItem("atc",JSON.stringify(filteredItem))
         window.location.reload();
     })  
 qty.appendChild(qtyInput)
@@ -94,7 +94,7 @@ function showTotalCartValue(totalPrice) {
 document.querySelector("#emptyCart").addEventListener("click",emptyCart);
 
 function emptyCart() {
-    localStorage.removeItem('cartDetails');
+    localStorage.removeItem('atc');
     window.location.reload();
 }
 
