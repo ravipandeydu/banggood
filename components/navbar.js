@@ -20,8 +20,11 @@ function navbar(){
          <div id="loc">
             <a id="flash" href="/">FLASH DEALS</a>
             <a id="clearance" href="samrat_clearance_sale.html">CLEARANCE SALE</a>
-            <a id="top" href="/">TOP SELLERS</a>
-            <a id="live" href="/">LIVE</a>
+            <a id="top" href="women's.html">WOMEN's</a>
+            <a id="live" href="phones.html">PHONES</a>
+            <a id="live" href="Jewelry.html">JEWELERY</a>
+            <a id="live" href="HomeAppliances.html">HOME & APPLIANCES</a>
+            <a id="live" href="automobile.html">AUTOMOBILE</a>
          </div>
     </div>
     
