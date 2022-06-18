@@ -5,7 +5,7 @@ var isPromoCodeApplied = false;
 var data = JSON.parse(localStorage.getItem("atc")) || [] ;
 
 var product = document.querySelector(".productcont");
-
+product.innerHTML=null
 data.forEach((element,i) => {
 
     totalItems += element.quantity;
@@ -42,11 +42,12 @@ data.forEach((element,i) => {
     var deleteItem = document.createElement("button")
     deleteItem.innerText = "DELETE"
     deleteItem.addEventListener("click",function (){
-        var filteredItem = data.filter(function(cur,i){
-            return cur.id != element.id
-        })
-        localStorage.setItem("atc",JSON.stringify(filteredItem))
-        window.location.reload();
+        // var filteredItem = data.filter(function(cur,i){
+        //     return cur.id != element.id
+        // })
+        // localStorage.setItem("atc",JSON.stringify(filteredItem))
+        // window.location.reload();
+        dele(element,i)
     })  
 qty.appendChild(qtyInput)
     imgDiv.append(img)
@@ -105,4 +106,8 @@ function emptyCart() {
       window.location.href = "checkout.html";
     }, 3000);
   });
-  
+  function dele(el,i){
+data.splice(i,1)
+localStorage.setItem("atc",JSON.stringify(data))
+window.location.reload()
+  }
