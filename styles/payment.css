@@ -14,6 +14,7 @@
     padding: 5px;
     margin-left: 30px;
     margin-right: 30px;
+    border: 2px solid black;
 }
 #select>div:nth-child(1){
     margin-left: 50Px;
@@ -34,8 +35,9 @@ h1{
 height: 300px;
 width: 30%;
 margin: auto;
-
-margin-left: 70px;      
+margin-top: 10px;
+border: 1px solid black;
+margin-left: 90px;      
 border-radius: 20px;
 padding: 20px;
       
@@ -50,9 +52,9 @@ padding: 20px;
     padding-left: 15px;
 }
 #upi{
-    height: 100px;
+    height: 150px;
     width: 20%;
-    
+    border: 1px solid black;
     margin-top: 10px;
        padding: 8PX;
     border-radius: 20px;
@@ -79,3 +81,30 @@ padding: 20px;
         background-color: #fff;
         color: #000;
     }
+    /* footer */
+.footer2 p {
+    /* border: 1px red solid; */
+    color: rgb(5, 3, 3);
+    width: 36%;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 800px; */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .footer1 > span:hover {
+    cursor: pointer;
+    /* border-bottom: 1px solid #666 ; */
+  }
+  .footer1 > span {
+    margin-right: 5px;
+  }
+  .footer1 {
+    padding-top: 50px;
+    width: 100%;
+  
+    /* border: 1px red solid; */
+    color: rgb(75, 75, 75);
+    text-align: center;
+  }
