@@ -44,10 +44,10 @@ function footer(){
         </div>
     </div>
     <div id="three">
-        <img id="fb" src="../images/icons.png" alt="">
+        <img id="fb" src="./images/icons.png" alt="">
     </div>
 </div>
-<img id="baki" src="../images/last.png" alt="">
+<img id="baki" src="./images/last.png" alt="">
 </div>`
 }
 
