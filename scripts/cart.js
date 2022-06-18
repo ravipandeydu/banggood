@@ -18,14 +18,14 @@ data.forEach((element,i) => {
     imgDiv.classList.add("imgDiv")
 
     var img = document.createElement("img")
-    img.setAttribute("src",element.img)
+    img.setAttribute("src",element.prodimage)
 
     var detailsDiv = document.createElement("div")
     detailsDiv.classList.add("detailsDiv")
 
     var productName = document.createElement("h3")
     productName.classList.add("productName")
-    productName.innerText = element.name;
+    productName.innerText = element.prodname;
 
     var qty = document.createElement("h4")
     qty.innerText = "QTY : " ;
@@ -33,7 +33,7 @@ data.forEach((element,i) => {
     qtyInput.setAttribute("type", "number");
     qtyInput.setAttribute("id", "qty");
     qtyInput.setAttribute("min", 1);
-    qtyInput.setAttribute("value", element.qty);
+    qtyInput.setAttribute("value", element.quantity);
     qtyInput.setAttribute("onchange", "updatePrice()");
 
     var price = document.createElement("h3")
