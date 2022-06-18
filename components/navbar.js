@@ -1,6 +1,6 @@
 function navbar(){
     return `<div id="samratfirst">
-    <img id="logo" src="https://imgaz.staticbg.com/banggood/os/202206/20220610044604_981.gif.webp" alt="">
+    <a href=index.html><img id="logo" src="https://imgaz.staticbg.com/banggood/os/202206/20220610044604_981.gif.webp" alt=""><a>
     <div id="inner1">
         <div id="searchbut">
             <input type="text" placeholder="drone" id="search">
