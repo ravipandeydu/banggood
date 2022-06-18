@@ -180,3 +180,10 @@
             margin-top: -5px;
             background-color: #2d2d38;
         }
+
+.number>h1{
+            color: orange;
+           position: relative;
+           bottom: 60px;
+           left: 65px;
+        }
