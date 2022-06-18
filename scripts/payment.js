@@ -8,6 +8,6 @@ let order = document.querySelector("#order");
 order.addEventListener("click", () => {
     order.innerText = "Loading...";
   setTimeout(() => {
-    window.location.href = "#";
+    window.location.href = "index.html";
   }, 3000);
 });
