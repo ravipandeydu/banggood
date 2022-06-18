@@ -5,7 +5,7 @@ var isPromoCodeApplied = false;
 var data = JSON.parse(localStorage.getItem("atc")) || [] ;
 
 var product = document.querySelector(".productcont");
-
+product.innerHTML=null
 data.forEach((element,i) => {
 
     totalItems += element.quantity;
@@ -37,16 +37,13 @@ data.forEach((element,i) => {
     qtyInput.setAttribute("onchange", "updatePrice()");
 
     var price = document.createElement("h3")
-    price.innerText = "price : $"  + element.prodprice;
+    price.innerText = `price : RS ${element.prodprice}` ;
     price.classList.add("price")
     var deleteItem = document.createElement("button")
     deleteItem.innerText = "DELETE"
     deleteItem.addEventListener("click",function (){
-        var filteredItem = data.filter(function(cur,i){
-            return cur.id != element.id
-        })
-        localStorage.setItem("atc",JSON.stringify(filteredItem))
-        window.location.reload();
+        deleteItem(element,i)
+     
     })  
 qty.appendChild(qtyInput)
     imgDiv.append(img)
@@ -56,7 +53,11 @@ qty.appendChild(qtyInput)
 
    
 });
-
+function deleteItem(element,i){
+data.splice(i,1)
+localStorage.setItem("atc",JSON.stringify(data))
+window.location.reload()
+}
 
 document.querySelector(".totalItem").innerText = totalItems;
 showTotalCartValue(totalPrice)
@@ -87,7 +88,7 @@ function addPromoCode() {
 }
 
 function showTotalCartValue(totalPrice) {
-    document.querySelector(".totalPrice").innerText = "$"+totalPrice;
+    document.querySelector(".totalPrice").innerText = "RS"+totalPrice;
 }
 
 
