@@ -8,8 +8,8 @@ var product = document.querySelector(".productcont");
 
 data.forEach((element,i) => {
 
-    totalItems += element.qty;
-    totalPrice += element.price;
+    totalItems += element.quantity;
+    totalPrice += element.prodprice;
 
     var productDiv = document.createElement("div")
     productDiv.classList.add("product")
