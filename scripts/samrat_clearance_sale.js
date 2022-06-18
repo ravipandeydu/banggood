@@ -774,3 +774,7 @@ function display(el){
     localStorage.setItem("fulldata",JSON.stringify(el))
     window.location.href = "samrat_display.html"
 }
+
+var cartData = JSON.parse(localStorage.getItem("atc")) || [];
+
+document.querySelector(".number>h1").innerText = cartData.length;
