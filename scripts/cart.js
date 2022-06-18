@@ -37,13 +37,17 @@ data.forEach((element,i) => {
     qtyInput.setAttribute("onchange", "updatePrice()");
 
     var price = document.createElement("h3")
-    price.innerText = `price : RS ${element.prodprice}` ;
+    price.innerText = "price : $"  + element.prodprice;
     price.classList.add("price")
     var deleteItem = document.createElement("button")
     deleteItem.innerText = "DELETE"
     deleteItem.addEventListener("click",function (){
-        deleteItem(element,i)
-     
+        // var filteredItem = data.filter(function(cur,i){
+        //     return cur.id != element.id
+        // })
+        // localStorage.setItem("atc",JSON.stringify(filteredItem))
+        // window.location.reload();
+        dele(element,i)
     })  
 qty.appendChild(qtyInput)
     imgDiv.append(img)
@@ -53,11 +57,7 @@ qty.appendChild(qtyInput)
 
    
 });
-function deleteItem(element,i){
-data.splice(i,1)
-localStorage.setItem("atc",JSON.stringify(data))
-window.location.reload()
-}
+
 
 document.querySelector(".totalItem").innerText = totalItems;
 showTotalCartValue(totalPrice)
@@ -88,7 +88,7 @@ function addPromoCode() {
 }
 
 function showTotalCartValue(totalPrice) {
-    document.querySelector(".totalPrice").innerText = "RS"+totalPrice;
+    document.querySelector(".totalPrice").innerText = "$"+totalPrice;
 }
 
 
@@ -106,4 +106,8 @@ function emptyCart() {
       window.location.href = "checkout.html";
     }, 3000);
   });
-  
+  function dele(el,i){
+data.splice(i,1)
+localStorage.setItem("atc",JSON.stringify(data))
+window.location.reload()
+  }
