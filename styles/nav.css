@@ -180,3 +180,21 @@
             margin-top: -5px;
             background-color: #2d2d38;
         }
+        #loc>a:hover{
+            color: orange;
+        }
+        .number>h1{
+           color: orange;
+           position: relative;
+           bottom: 65px;
+           left: 65px;
+           text-decoration: none;
+           margin-bottom: -15px;
+           font-size: 23px;
+          border-radius: 10px;
+           border: 1px solid rd;
+        }
+
+        a{
+            text-decoration: none;
+        }

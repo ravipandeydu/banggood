@@ -111,6 +111,7 @@
     cart.push(data)
     localStorage.setItem("atc",JSON.stringify(cart))
     alert("Congratulation You item is added to cart")
+    window.location.reload()
    }
    let i =  0;
    let alltotal = data.quantity
@@ -149,4 +150,7 @@
        alert("Yes, the Item will be delivered in your area")
     },3000)
    }
-   
+
+   var cartData = JSON.parse(localStorage.getItem("atc")) || [];
+
+document.querySelector(".number>h1").innerText = cartData.length;

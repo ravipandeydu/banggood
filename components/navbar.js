@@ -49,7 +49,11 @@ function navbar(){
     </div>
     <a href = "cart.html"><div id="cart">
         <img id="cartlogo" src="https://th.bing.com/th/id/R.232975bdfb8014f9d547e522277775c0?rik=rR172r7JwrAoSg&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fU%2fD%2fn%2fG%2f6%2fh%2fwhite-shopping-cart-md.png&ehk=FOfXlugNgp2xjANjv8EhJV0Jmwkr5vYXtDj765zBarA%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <div class="number">
+        <h1>0</h1>
+        </div>
     </div><a>
+   
 </div>`
 }
 
