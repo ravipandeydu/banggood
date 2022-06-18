@@ -8,8 +8,8 @@ var product = document.querySelector(".productcont");
 
 data.forEach((element,i) => {
 
-    totalItems += element.qty;
-    totalPrice += element.price;
+    totalItems += element.quantity;
+    totalPrice += element.prodprice;
 
     var productDiv = document.createElement("div")
     productDiv.classList.add("product")
@@ -37,7 +37,7 @@ data.forEach((element,i) => {
     qtyInput.setAttribute("onchange", "updatePrice()");
 
     var price = document.createElement("h3")
-    price.innerText = "price : $"  + element.price;
+    price.innerText = "price : $"  + element.prodprice;
     price.classList.add("price")
     var deleteItem = document.createElement("button")
     deleteItem.innerText = "DELETE"
