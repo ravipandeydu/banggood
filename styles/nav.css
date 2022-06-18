@@ -38,7 +38,7 @@
             margin-top: 18px;
             padding-top: 5px;
             padding-left: 10px;
-            padding-right: 150px;
+            padding-right: 360px;
             border-right: none;
             background-color: white;
             border: none;
@@ -49,14 +49,16 @@
         }
         #span1{
             display: flex;
-            gap: 6px;
-            font-size: 9.9px;
+            gap: 20px;
+            font-size: 12px;
             color: rgb(172, 172, 172);
             margin-top: -2px;
-            background-color: #2d2d38
+            background-color: #2d2d38;
+            margin-left: 20px;
         }
         #span1>p{
-            background-color: #2d2d38
+            background-color: #2d2d38;
+            
         }
         #span1 > p:hover{
             color: orange;
@@ -86,6 +88,10 @@
             margin-top: 0px;
             background-color: #2d2d38;
             cursor: pointer;
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            font-size: 11px; 
         }
         #cart{
             cursor: pointer;
@@ -132,7 +138,7 @@
             }
         #searchbut{
             display: flex;
-            background-color: #2d2d38
+            background-color: #2d2d38;
         }
         #inner2{
             margin-top: 15px;
@@ -157,11 +163,13 @@
           color: orange;
           cursor: pointer;
         }
-        a{
+      
+        #loc > a{
             text-decoration: none;
             color: white;
             font-weight: bolder;
-            font-size: 11px; 
+            font-size: 10px;
+            padding: 3px; 
             background-color: #2d2d38;
 
         }
@@ -170,5 +178,5 @@
         }
         #loc{
             margin-top: -5px;
-            background-color: #2d2d38
+            background-color: #2d2d38;
         }
