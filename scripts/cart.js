@@ -37,7 +37,7 @@ data.forEach((element,i) => {
     qtyInput.setAttribute("onchange", "updatePrice()");
 
     var price = document.createElement("h3")
-    price.innerText = "price : $"  + element.price;
+    price.innerText = "price : $"  + element.prodprice;
     price.classList.add("price")
     var deleteItem = document.createElement("button")
     deleteItem.innerText = "DELETE"
