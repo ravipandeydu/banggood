@@ -1,0 +1,343 @@
+
+
+#samrat_clear{
+    background-color: rgb(248,75,73);
+    
+    
+}
+#firstimg{
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#sam1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 65%;
+    margin: auto;
+   
+    margin-top: 30px;
+    
+}
+#sam1>div{
+    display: flex;
+    border: 1px solid rd;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam1{
+    background-color: rgb(248,75,73);
+}
+#sam1>div>div{
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#sam1img{
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#sam1name{ 
+     margin: 40px 0px 0px 10px;  
+    background-color: white;
+    font-weight: bolder;
+} 
+#sam1name:hover{
+    color: red;
+    text-decoration: underline;
+}
+#div1{
+   margin-top: 50px;
+   line-height: 25px;
+    background-color: white;
+    border: 1px solid ble;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: -20px;
+}
+#but1{
+    margin: 40px 0px 0px 0px;
+    padding: 2px;
+    font-weight: bold;
+}
+#sam1price{
+    margin: 50px 5px 40px 50px; 
+    background-color: white;
+    text-align: left;
+    font-style: italic;
+}
+.samtag1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+#sam2{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+    
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#sam2>div{
+    border: 1px solid blck;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam2img{
+    height: 155px;
+    width: 170px;
+    margin: 10px;
+    background-color: white;
+  
+    
+}
+#sam2>div>div{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#sam2name{
+    margin: 5px 10px 5px 10px;  
+    background-color: white;
+    border: 10px;
+    text-align: center;
+
+}
+#sam2name:hover{
+    color: red;
+    text-decoration: underline;
+}
+#but2{
+ display: flex;
+ justify-content: right;
+ background-color: white;
+ margin-top: -40px;
+ margin-left: 210px;
+ margin-right: 10px;
+ border: 1px solid red;
+ background-color: red;
+ border-radius:20px ;
+padding: 4px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+color: white;
+font-size: 12px;
+text-align: center;
+cursor: pointer;
+}
+#sam2price{
+    margin: 30px 0px 20px 0px; 
+    background-color: white;
+    font-style: italic;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 10px;
+  
+
+}
+#sam3{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,18.58%);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+  
+}
+#sam3>div{
+    border: 1px solid blck;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam3>div>div{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rd;
+}
+.samads1{
+    width: 65%;
+    margin-left: 295px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#sam4{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,18.58%);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#sam4>div{
+    border: 1px solid blck;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam4>div>div{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rd;
+}
+#sam5{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,18.58%);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#sam5>div{
+    border: 1px solid blck;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam5>div>div{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rd;
+}
+#sam6{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,18.58%);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#sam6>div{
+    border: 1px solid blck;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam6>div>div{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rd;
+}
+#sam7{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,18.58%);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+    
+}
+#sam7>div{
+    border: 1px solid blck;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#sam7>div>div{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rd;
+}
+.extra{
+   display: flex;
+   align-self: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color:white;
+    margin-bottom: -20px;
+    margin-left: 10px;
+   padding: 0px 10px;
+   margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid blck;
+    background-image: linear-gradient(to left, yellow,rgb(220, 85, 85));
+    
+}
+.hot{
+    
+    font-style: italic;
+    color: white;
+    padding: 2px;
+    background-color: transparent;
+    /* position: relative; */
+}
+.sold{
+   
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(206, 6, 6);
+    border: 2px solid gren;
+    background-color: transparent;
+
+}
+.design{
+    background-color: white;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+.icon{
+    height: 15px;
+    background-color: white;
+    color: rgb(217, 217, 217);
+}
+.plus{
+    font-size: 12px;
+    color: rgb(176, 171, 171);
+    background-color: white;
+}
+#but1{
+    border: 1px solid red;
+    background-color: white;
+    color:red;
+
+}
