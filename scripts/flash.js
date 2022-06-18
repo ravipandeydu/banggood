@@ -47,6 +47,9 @@ var flashobj8 = new flashdeals("BlitzWolf® AirAux AA-SAR1 60W bluetooth V5.0 So
 
 flashArr.push(flashobj1, flashobj2,flashobj3,flashobj4,flashobj5,flashobj6,flashobj7,flashobj8,flashobj1, flashobj2,flashobj3,flashobj4,flashobj5,flashobj6,flashobj7,flashobj8,flashobj1, flashobj2,flashobj3,flashobj4,flashobj5,flashobj6,flashobj7,flashobj8,flashobj1, flashobj2,flashobj3,flashobj4,flashobj5,flashobj6)
 
+import navbar from "../components/navbar.js"
+document.querySelector('#navbar').innerHTML = navbar()
+
 import displayData from "../components/append.js"
 let cont = document.querySelector('#container')
 displayData(flashArr, cont)

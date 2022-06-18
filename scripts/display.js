@@ -66,3 +66,6 @@ function addcartfunc(el){
     addcartarr.push(el)
     localStorage.setItem('atc', JSON.stringify(addcartarr))
 }
+
+import navbar from "../components/navbar.js"
+document.querySelector('#navbar').innerHTML = navbar()
