@@ -120,6 +120,10 @@ if(isExist){
    
     alert("already exists")
 }else{
+    var cartData = JSON.parse(localStorage.getItem("atc")) || [];
+
+    document.querySelector(".number>h1").innerText = cartData.length;
+
     cart.push(data)
 localStorage.setItem("atc",JSON.stringify(cart))
 alert("Congratulation You item is added to cart")
