@@ -37,3 +37,11 @@ Deploy Link: https://ravipandeydu.github.io/banggood/
 - `HTML`
 - `CSS`
 - `JavaScript`
+
+# Creators
+- [Ravishankar Kumar](https://github.com/ravipandeydu)
+- [Harsh Joundal](https://github.com/harshjoundal)
+- [Soumyaranjan](https://github.com/Soumya955)
+- [Samrat Sinha](https://github.com/Samrat-Sinha)
+- [Tridip Rong](https://github.com/TridipRong)
+- [Sushant](https://github.com/HackerSushant76)
