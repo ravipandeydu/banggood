@@ -33,4 +33,7 @@ Deploy Link:
 ## Automobile
 ![Automobile](https://i.imgur.com/gMmdufe.png)
 
-**TechStacks** - `HTML`, `CSS`, `JavaScript`.
+# TechStacks
+- `HTML`
+- `CSS`
+- `JavaScript`
